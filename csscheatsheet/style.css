@@ -22,7 +22,7 @@ a {
 }
 
 a:hover {
-    color: red;
+    color: aqua;
 }
 
 a:active{
@@ -36,6 +36,18 @@ a:visited {
 .container {
     width: 80%; /* % is responsive, px is fixed */
     margin: auto; /* center the container */
+}
+
+.button {
+    background-color: #333333;
+    color: aqua;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background-color: #555555;
+    color: white
 }
 
 .box-1 {
@@ -94,8 +106,34 @@ a:visited {
 
 .categories ul {
     padding: 0;
+    padding-left: 20px;
     list-style: none;
 }
+
+.categories li {
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333333;
+    list-style-image: url('images/check.png');
+}
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form .form-group{
+        padding-bottom: 15px; 
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+    padding: 10px;
+    width: 100%;
+}
+
+
 
 h3 {
     color: green;
