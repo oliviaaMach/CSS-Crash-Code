@@ -1,3 +1,9 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+The * selector applies to all elements on the page - it is a universal selector. It is often used to reset default margin and padding values. */
+
 body {
     background-color: #f4f4f4;
     color: #555555;
@@ -10,6 +16,23 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited {
+    color: yellow;
+}
+
 .container {
     width: 80%; /* % is responsive, px is fixed */
     margin: auto; /* center the container */
@@ -17,7 +40,61 @@ body {
 
 .box-1 {
     background-color: #333333;
-    color: #ffffff;
+    color: #ffffff; /* defines the text color inside the box */
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+        /* Same as above, including all side of the border -
+        border: 5px red solid; */
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+        /*Same as above
+        padding: 20px; */
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+        /*Same as above
+        margin: 20px; */
+
+}
+
+.box-1 h1 {
+    font-family: tahoma, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2 {
+    border: 3px dotted #cccccc;
+    padding: 20px;
+    margin: 20px;
+}
+
+.categories {
+    border: 1px #cccccc solid;
+    padding: 10px;
+    border-radius:  15px;;
+}
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    padding: 0;
+    list-style: none;
 }
 
 h3 {
