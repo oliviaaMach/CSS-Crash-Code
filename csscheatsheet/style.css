@@ -1,0 +1,25 @@
+body {
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    /* Same as above -
+    font: normal, 12px Arial, Helvetica, sans-serif; */
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container {
+    width: 80%; /* % is responsive, px is fixed */
+    margin: auto; /* center the container */
+}
+
+.box-1 {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+h3 {
+    color: green;
+}
