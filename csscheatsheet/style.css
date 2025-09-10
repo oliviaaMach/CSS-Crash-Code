@@ -168,6 +168,10 @@ a:visited {
     margin-top: 30px; 
  /* Static by default */
     position: relative; /* Relative to its normal position */
+    background-image: url(./images/bgimage.jpg);
+    background-repeat: no-repeat;
+    background-position: 100px 200px; /* x y */
+    background-position: center top;
  }
 
 .p-box h1 {
@@ -180,6 +184,27 @@ a:visited {
     position: absolute;
     bottom: 40px;
     right: 100px;
+}
+
+.fix-me {
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:first-child{
+    background: red;
+}
+
+.my-list li:last-child{
+    background: blue;
+}
+
+.my-list li:nth-child(5){ /* 5th child */
+    background: yellow;
+}
+
+.my-list li:nth-child(even){ /* even child */
+    background: pink;
 }
 
 h3 {
