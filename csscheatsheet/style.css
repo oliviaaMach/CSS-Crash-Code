@@ -161,6 +161,27 @@ a:visited {
     box-sizing: border-box;
 }
 
+.p-box {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000000;
+    margin-top: 30px; 
+ /* Static by default */
+    position: relative; /* Relative to its normal position */
+ }
+
+.p-box h1 {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+.p-box h2 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
 h3 {
     color: green;
 }
