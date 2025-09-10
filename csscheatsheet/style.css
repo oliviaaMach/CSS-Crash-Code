@@ -50,6 +50,10 @@ a:visited {
     color: white
 }
 
+.clr {
+    clear:both;
+}
+
 .box-1 {
     background-color: #333333;
     color: #ffffff; /* defines the text color inside the box */
@@ -133,7 +137,29 @@ a:visited {
     width: 100%;
 }
 
+.block {
+    float: left;
+    width: 33.33%;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    box-sizing: border-box; /* includes padding and border in the total width and height of the element */
+}
 
+#main-block{
+    float: left;
+    width: 70%;
+        padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 15px;
+    box-sizing: border-box;
+}
 
 h3 {
     color: green;
